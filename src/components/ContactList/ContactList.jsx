@@ -14,10 +14,10 @@ export const ContactList = () => {
 
   return (
     <List>
-      {contacts.map(({ id, name, phone }) => (
+      {contacts.map(({ id, name, number }) => (
         <Item key={id}>
           <Text>
-            {name}: {phone}
+            {name}: {number}
           </Text>
           <Button type="button" onClick={() => dispatch(deleteContact(id))}>
             Delete
