@@ -16,31 +16,31 @@ code {
     monospace;
 }
 
-          h1,
-          h2,
-          h3,
-          h4,
-          h5,
-          h6,
-          p {
-            margin: 0;
-          }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+}
 
-          button {
-            margin: 0 auto;
-            cursor: pointer;
-            border: none;
-          }
+button {
+   margin: 0 auto;
+   cursor: pointer;
+   border: none;
+}
 
-          ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-          }
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
 
-          a {
-            text-decoration: none;
-            color: inherit;
-            cursor: pointer;
-          }
+a {
+   text-decoration: none;
+   color: inherit;
+   cursor: pointer;
+}
 `;

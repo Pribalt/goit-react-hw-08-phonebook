@@ -7,7 +7,7 @@ import { GlobalStyle } from 'components/GlobalStyle';
 
 export const Layout = () => {
   return (
-    <div style={{ maxWidth: 960, margin: '0 auto', padding: '0 16px' }}>
+    <>
       <AppBar />
       <Suspense fallback={null}>
         <Outlet />
@@ -25,6 +25,6 @@ export const Layout = () => {
         pauseOnHover
         theme="light"
       />
-    </div>
+    </>
   );
 };

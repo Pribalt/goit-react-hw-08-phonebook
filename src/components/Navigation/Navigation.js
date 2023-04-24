@@ -1,13 +1,23 @@
 import { useAuth } from 'hooks';
-import { StyledLink } from 'components/Navigation/Navigation.styled';
+import {
+  Nav,
+  LogoText,
+  Item,
+  StyledLink,
+} from 'components/Navigation/Navigation.styled';
 
 export const Navigation = () => {
   const { isLoggedIn } = useAuth();
 
   return (
-    <nav>
-      <StyledLink to="/">Home</StyledLink>
-      {isLoggedIn && <StyledLink to="/contacts">Contacts</StyledLink>}
-    </nav>
+    <Nav>
+      <LogoText to="/">PhoneBook</LogoText>
+      <ul>
+        <Item>
+          <StyledLink to="/">Home</StyledLink>
+          {isLoggedIn && <StyledLink to="/contacts">Contacts</StyledLink>}
+        </Item>
+      </ul>
+    </Nav>
   );
 };

@@ -7,30 +7,31 @@ import {
 } from 'formik';
 
 export const Form = styled(FormikForm)`
-  width: 450px;
+  width: 350px;
   height: auto;
 
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 20px;
+  margin-bottom: 50px;
 
-  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #f5f4fa;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px;
 `;
 
 export const Lable = styled.label`
   display: flex;
+  flex-direction: column;
 
-  gap: 5px;
+  margin-bottom: 20px;
+  gap: 8px;
 
   font-weight: 500;
-  font-size: 20px;
-
-  margin-bottom: 25px;
-
-  flex-direction: column;
+  font-size: 18px;
 `;
 
 export const Field = styled(FormikField)`
-  width: 250px;
+  width: 100%;
   height: 30px;
 
   font-weight: 500;
@@ -51,7 +52,7 @@ export const Field = styled(FormikField)`
 `;
 
 export const Button = styled.button`
-  width: 120px;
+  width: 100%;
   min-height: 30px;
 
   font-weight: 500;

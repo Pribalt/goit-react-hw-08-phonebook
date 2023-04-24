@@ -3,19 +3,18 @@ import styled from 'styled-components';
 export const Label = styled.label`
   display: flex;
   flex-direction: column;
+  align-items: center;
 
-  width: 450px;
+  gap: 10px;
 
-  gap: 5px;
-
-  font-weight: 500;
   font-size: 20px;
+  font-weight: bold;
 
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 `;
 
 export const Input = styled.input`
-  width: 250px;
+  width: 310px;
   height: 30px;
 
   font-weight: 500;

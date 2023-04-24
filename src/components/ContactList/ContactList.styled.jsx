@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const List = styled.ul`
-  width: 450px;
+  width: 350px;
+  padding: 0 20px;
 `;
 
 export const Item = styled.li`
@@ -18,6 +19,7 @@ export const Text = styled.p`
   align-items: center;
 
   font-size: 20px;
+  font-weight: 500;
 `;
 
 export const Button = styled.button`
